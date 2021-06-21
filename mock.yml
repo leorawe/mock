@@ -1,0 +1,16 @@
+domains:
+- domain: www.mockdownjersey.com
+  type: PRIMARY
+  zone: mockdownjersey.com
+name: mock
+region: nyc
+static_sites:
+- environment_slug: html
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: leorawe/mock
+  name: mock
+  routes:
+  - path: /
+  source_dir: /
