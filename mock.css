@@ -10,13 +10,13 @@ body {
 h1 {
   font-size: 5rem;
   font-weight: bolder;
-  margin-bottom: .5rem;
+  margin-bottom: .2rem;
   margin-top: 0;
 }
 
-p {
-  margin-bottom: .5rem;
-  color: tomato;
+p.mock-bright {
+  margin: 0;
+  color: #e61115;
   font-weight: 800;
   font-size: 2rem;
 
