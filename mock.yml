@@ -11,6 +11,7 @@ static_sites:
     deploy_on_push: true
     repo: leorawe/mock
   name: mock
+  catchall_document: missing.html
   routes:
   - path: /
   source_dir: /
