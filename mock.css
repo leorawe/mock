@@ -129,19 +129,24 @@ p.mock-bright {
   padding: 0 20px;
  }
 
-  .card {
+.card-wrap {
+  width: 33.333%;
+}
+
+.card {
    width: 320px;
    border: 1px solid #ccc;
-   margin: 10px auto;
    display: flex;
    flex-direction: column;
    background-color: white;
+   margin: 0;
    }
 
  .card-image {
    height: 370px;
    margin: 0 auto;
   }
+
  .card h2 {
      margin: 0;
      padding: 10px 0;
@@ -186,18 +191,13 @@ p.mock-bright {
 
 
  @media (max-width: 1199px) {
-  .home.mock-wrapper {
-    max-width: 100%;
+  .home .mock-wrapper {
+    width: 100%;
     margin: 0 auto;
     }
     .card-row {
-      padding: 0 5px;
-      max-width: 940px;
-      margin: 0 auto;
-    }
-    .card {
-      width: 280px;
-      margin: 5px;
+      padding: 0;
+      margin: 0;
     }
  }
 
@@ -242,9 +242,22 @@ p.mock-bright {
     line-height: 26px;
   }
 
+  .mock-header {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
   .card-row {
     max-width: 100%;
     flex-wrap: wrap;
+  }
+  .card-wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card {
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 
 }
