@@ -204,7 +204,7 @@ p.mock-bright {
 @media (max-width: 959px) {
   h1 {
     padding-top: 15px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 36px;
   }
   img {
@@ -246,7 +246,15 @@ p.mock-bright {
     width: 100%;
     flex-wrap: wrap;
   }
+  .mock-header-text {
+    margin: 0;
+    max-width: 100%;
+    padding: 0 5%;
+  }
 
+  .mock-footer {
+    padding: 0;
+  }
   .card-row {
     max-width: 100%;
     flex-wrap: wrap;
