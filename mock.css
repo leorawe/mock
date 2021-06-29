@@ -97,7 +97,7 @@ a:hover {
   margin-bottom: 10px;
 }
 
-.mock-issue {
+.mock-issue, .mock-bold {
   font-weight: bold;
 }
 
