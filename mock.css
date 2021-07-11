@@ -147,6 +147,12 @@ p.mock-bright {
    margin: 0 auto;
   }
 
+.card-image img {
+  max-height: 370px;
+  width: auto;
+  
+}
+
  .card h2 {
      margin: 0;
      padding: 10px 0;
