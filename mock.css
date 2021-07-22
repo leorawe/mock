@@ -83,6 +83,10 @@ a:hover {
   line-height: 26px;
 }
 
+.mock-content h2 {
+  color: #0d2e9b;
+}
+
 .mock-bio-text, .mock-content, .mock-header-text {
   text-align: left;
   font-size: 1.2rem;
@@ -106,7 +110,10 @@ p.mock-bright {
   color: #e61115;
   font-weight: 400;
   font-size: 1rem;
+}
 
+.mock-center {
+  text-align: center;
 }
 
 .pic {
