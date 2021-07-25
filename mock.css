@@ -176,13 +176,6 @@ p.mock-bright {
      background-color: #eee;
  }
 
- .card img:hover {
-   cursor: pointer;
-   opacity: 0.8;
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-   overflow: hidden;
- }
-
  .card p {
    padding: 0 10px;
    font-family: Arial,Helvetica,sans-serif;
